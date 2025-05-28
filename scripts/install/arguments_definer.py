@@ -37,7 +37,7 @@ class ArgumentsDefiner:
 
     def _define_default_arguments(self):
         self._parser.add_argument('-r', '--remove', action='store_true', help='remove Marble themes')
-        self._parser.add_argument('-ri', '--reinstall', action='store_true', help='reinstall Marble themes')
+        self._parser.add_argument('-ri', '--reinstall', action='store_true', help='reinstall Obsidian flow themes')
 
     def _define_color_arguments(self, colors: dict[str, Any]):
         default_args = self._parser.add_argument_group('Install default theme')

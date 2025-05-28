@@ -1,6 +1,5 @@
 /* Search */
 
-
 /* "no results" text */
 .search-statustext {
   color: TEXT-DISABLED-COLOR;
@@ -13,7 +12,7 @@
 	box-shadow: inset 0 0 0 1px BORDER-SHADOW;
 	border-radius: 18px;
 	border: none;
-	background-color: SECTION-COLOR;
+	background-color: BACKGROUND-COLOR;
 	color: TEXT-PRIMARY-COLOR;
 }
 
@@ -58,3 +57,4 @@
 	background-color: ACCENT-DISABLED_HOVER;
 	color: TEXT-PRIMARY-COLOR;
 }
+

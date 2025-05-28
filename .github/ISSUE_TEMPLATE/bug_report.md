@@ -3,9 +3,11 @@ name: Bug report
 about: Create a report to help us improve (big thanks for using this template!)
 title: ''
 labels: 'bug'
-assignees: 'imarkoff'
+assignees: 'JustDeax'
 
 ---
+
+### First, if the bug is also present in [Marble Shell Theme](https://github.com/imarkoff/Marble-shell-theme), please file a bug report in its official [repository](https://github.com/imarkoff/Marble-shell-theme).
 
 **Describe the bug**
 A clear and concise description of what the bug is.
@@ -19,9 +21,6 @@ Steps to reproduce the behavior:
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.

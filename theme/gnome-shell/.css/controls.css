@@ -114,17 +114,20 @@
 /* Sliders */
 
 .slider, 
-.level {
-	-barlevel-background-color: ACCENT-DISABLED-COLOR;
-	-barlevel-color: TEXT-PRIMARY-COLOR;
-	color: TEXT-PRIMARY-COLOR; /* slider handle color (47+) */
-	-barlevel-active-background-color: BUTTON-COLOR;
-	-barlevel-height: 10px;
-	-barlevel-border-width: 0px; /* up to 46 */
-	-slider-handle-radius: 7px;
-	/* overfill */
-	-barlevel-overdrive-color: #c01c28;
-	-barlevel-overdrive-separator-width: 2px;
+.level { /* EDITED */
+	color: TEXT-PRIMARY-COLOR;
+  -barlevel-active-background-color: BUTTON-COLOR;
+  height: 20px;
+  border-radius: 16px;
+  -barlevel-height: 19px;
+  -barlevel-background-color: ACCENT-DISABLED-COLOR;
+  -barlevel-border-width: 2px;
+  -barlevel-border-color: transparent;
+  -barlevel-active-border-color: transparent;
+  -barlevel-overdrive-border-color: transparent;
+  -barlevel-overdrive-separator-width: 0px;
+  -slider-handle-radius: 9.5px;
+  -slider-handle-border-width: 1px;
 }
 
 .level {
@@ -179,3 +182,4 @@ StScrollBar StButton#vhandle:active,
 StScrollBar StButton#hhandle:active {
 	background-color: SCROLLBAR_ACTIVE;
 }
+

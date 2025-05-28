@@ -5,7 +5,7 @@
 	color: TEXT-PRIMARY-COLOR;
 	background-color: BACKGROUND-COLOR;
 	border: 1px solid BORDER-MENU-SHADOW;
-	border-radius: 22px;
+	border-radius: 28px;
 	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.07);
 }
 
@@ -13,7 +13,7 @@
 .screenshot-ui-type-button { /* Selection / Screen / Window */
 	color: TEXT-PRIMARY-COLOR;
 	background-color: transparent;
-	border-radius: 15px;
+	border-radius: 22px;
 	transition-duration: 100ms;
 }
 
@@ -32,18 +32,26 @@
 	box-shadow: inset 0 0 0 1px BORDER-SHADOW;
 }
 
-.screenshot-ui-show-pointer-button:checked,
 .screenshot-ui-type-button:checked,
-.screenshot-ui-show-pointer-button:checked:hover,
 .screenshot-ui-type-button:checked:hover,
-.screenshot-ui-show-pointer-button:checked:focus,
 .screenshot-ui-type-button:checked:focus {
-	background-color: ACCENT-DISABLED_HOVER;
+	background-color: ACCENT-COLOR;
 	box-shadow: inset 0 0 0 1px BORDER-SHADOW;
 	color: TEXT-PRIMARY-COLOR;
 	/* some distributions may have gradient by default (aka Zorin OS) */
-	background-gradient-start: ACCENT-DISABLED_HOVER;
-	background-gradient-end: ACCENT-DISABLED_HOVER;
+	background-gradient-start: ACCENT-COLOR;
+	background-gradient-end: ACCENT-COLOR;
+}
+
+.screenshot-ui-show-pointer-button:checked,
+.screenshot-ui-show-pointer-button:checked:hover,
+.screenshot-ui-show-pointer-button:checked:focus {
+  background-color: ACCENT-SECONDARY-COLOR;
+	box-shadow: inset 0 0 0 1px BORDER-SHADOW;
+	color: TEXT-INVERTED-COLOR;
+	/* some distributions may have gradient by default (aka Zorin OS) */
+	background-gradient-start: ACCENT-SECONDARY-COLOR;
+	background-gradient-end: ACCENT-SECONDARY-COLOR;
 }
 
 .screenshot-ui-show-pointer-button:insensitive,
@@ -202,5 +210,6 @@
 
 .window-close:hover,
 .screenshot-ui-close-button:hover {
-	background-color: ACCENT-DISABLED-OPAQUE_HOVER;
+	background-color: ACCENT-OPACITY-COLOR;
 }
+

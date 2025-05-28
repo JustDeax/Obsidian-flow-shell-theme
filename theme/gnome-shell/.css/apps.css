@@ -88,7 +88,7 @@
 	background-color: BACKGROUND-COLOR;
 	border: none;
 	padding: 0; /* because of icon grid */
-	box-shadow: inset 0 0 0 1px BORDER-MENU-SHADOW;
+	box-shadow: none;
 }
 
 /* folder title */
@@ -139,7 +139,7 @@
 .page-navigation-arrow {
 	border-radius: 15px;
 	padding: 12px;
-	transition-duration: 100ms;
+	transition-duration: 250ms;
 	background-color: transparent;
 }
 
@@ -214,7 +214,7 @@
 /* pill below if app is running */
 .app-well-app-running-dot,
 .app-grid-running-dot { /* 46+ */
-	width: 10px;
+	width: 16px;
 	height: 4px;
 	border-radius: 2px;
 	background: ACCENT-SECONDARY-COLOR;
@@ -311,3 +311,4 @@
 #dashtodockContainer.right.extended.overview.shrink #dash .dash-background {
 	background-color: BACKGROUND-COLOR;
 }
+

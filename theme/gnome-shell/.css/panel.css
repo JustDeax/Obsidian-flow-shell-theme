@@ -1,16 +1,20 @@
 /* Panel */
 
-#panel {
+#panel { /* EDITED */
 	background-color: BACKGROUND-OPAQUE-COLOR;
-	height: 34px;
-	font-size: 13px;
+	height: 38px;
+	font-size: 14px;
 	box-shadow: none;
+	font-weight: bold;
+	border-radius: 14px;
+	margin: 6px;
+	transition-duration: 250ms;
 }
 
 /* panel in overview, lock screen */
-#panel:overview, #panel.unlock-screen, #panel.login-screen {
+#panel:overview, #panel.unlock-screen, #panel.login-screen { /* EDITED */
 	background-color: transparent;
-	transition-duration: 0.25s;
+	transition-duration: 500ms;
 }
 
 /* i know margin are not used cuz hitboxes of buttons don't expand to screen edges */
@@ -28,11 +32,10 @@
 
 /* panel buttons */
 .panel-button,
-.panel-button .clock { /* DND / new messages icon */
+.panel-button .clock { /* DND / new messages icon */ /* EDITED */
 	color: TEXT-PRIMARY-COLOR;
-	border-radius: 9px;
-	border: 1px solid PANEL-BUTTON-BORDER !important;
-	background-color: ACCENT-DISABLED-COLOR;
+	border-radius: 12px;
+	background-color: transparent;
 	box-shadow: none;
 }
 
@@ -40,7 +43,7 @@
 .panel-button:hover .clock, 
 .panel-button:active,
 .panel-button:active .clock {
-	background-color: ACCENT-DISABLED_HOVER;
+	background-color: ACCENT-COLOR;
 }
 
 /* workspaces indicator in activities button (45+) */
@@ -96,3 +99,4 @@
 	padding: 8px;
 	margin: 0;
 }
+

@@ -40,13 +40,13 @@
 	border-radius: 12px;
 	background-color: ACCENT-DISABLED-COLOR;
 	color: TEXT-PRIMARY-COLOR;
-	animation-duration: 100ms;
+	animation-duration: 250ms;
 }
 
 .modal-dialog-linked-button,
 .modal-dialog-button-box .modal-dialog-button {
-	padding: 9px 0 !important;
-	border-radius: 10px;
+	padding: 12px 0 !important;
+	border-radius: 12px;
 }
 
 .notification-button {
@@ -117,3 +117,4 @@
 	background-color: BUTTON_INSENSITIVE;
 	color: BUTTON-TEXT_SECONDARY;
 }
+

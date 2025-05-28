@@ -14,7 +14,7 @@ class ThemePathProvider:
         if not themes_folder or not color_name or not theme_mode or not theme_type:
             raise ValueError("All parameters must be non-empty strings.")
 
-        marble_name = '-'.join(["Marble", color_name, theme_mode])
-        final_path = os.path.join(themes_folder, marble_name, theme_type, "")
+        theme_name = '-'.join(["Obsidian-flow", color_name, theme_mode])
+        final_path = os.path.join(themes_folder, theme_name, theme_type, "")
 
         return final_path

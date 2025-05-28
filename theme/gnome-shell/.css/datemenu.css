@@ -40,13 +40,13 @@
 
 /* weekday label */
 .day-label {
-	color: TEXT-SECONDARY-COLOR;
+	color: TEXT-PRIMARY-COLOR;
 	font-weight: 600;
 }
 
 /* date label */
 .date-label {
-	color: TEXT-SECONDARY-COLOR;
+	color: TEXT-PRIMARY-COLOR;
 	font-weight: 700;
 }
 
@@ -106,7 +106,7 @@
 .calendar .calendar-day-heading:hover, /* 46+ */
 .calendar .calendar-day-heading:selected:hover, /* 46+ */
 .calendar .calendar-month-header .pager-button:hover {
-	background-color: ACCENT-DISABLED_HOVER;
+	background-color: ACCENT-COLOR;
 	color: TEXT-PRIMARY-COLOR;
 	box-shadow: inset 0 0 0 1px BORDER-SHADOW;
 }
@@ -114,13 +114,13 @@
 .calendar-day:focus,
 .calendar .calendar-day-heading:focus, /* 46+ */
 .calendar .calendar-month-header .pager-button:focus {
-	background-color: ACCENT-OPACITY-COLOR;
+	background-color: ACCENT-COLOR;
 	box-shadow: inset 0 0 0 1.5px ACCENT-SECONDARY-COLOR !important;
 }
 
 .calendar-day:selected,
 .calendar .calendar-day-heading:selected /* 46+ */ {
-	background: ACCENT-DISABLED_HOVER;
+	background: ACCENT-COLOR;
 	box-shadow: inset 0 0 0 1px BORDER-SHADOW;
 }
 
@@ -197,7 +197,7 @@
 .events-button:hover,
 .world-clocks-button:hover,
 .weather-button:hover {
-	background-color: ACCENT-DISABLED-COLOR;
+	background-color: ACCENT-OPACITY-COLOR;
 }
 
 .events-button:focus,
@@ -247,3 +247,4 @@
 .weather-button .weather-forecast-time {
 	color: TEXT-SECONDARY-COLOR;
 }
+

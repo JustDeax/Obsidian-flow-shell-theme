@@ -56,7 +56,7 @@
 	transition-duration: 100ms;
 }
 .message-list .message:hover {
-	background-color: ACCENT-DISABLED-COLOR;
+	background-color: ACCENT-OPACITY-COLOR;
 }
 .message-list .message:focus {
 	background-color: ACCENT-OPACITY-COLOR;
@@ -155,7 +155,7 @@
 }
 
 .message-media-control:hover {
-	background-color: ACCENT-DISABLED-COLOR;
+	background-color: ACCENT-OPACITY-COLOR;
 	box-shadow: inset 0 0 0 1px BORDER-SHADOW;
 	color: TEXT-PRIMARY-COLOR;
 }
@@ -195,3 +195,4 @@
 
 /* URLs in messages */
 .url-highlighter { link-color: ACCENT-SECONDARY-COLOR; }
+

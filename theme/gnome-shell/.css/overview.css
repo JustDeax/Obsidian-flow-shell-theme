@@ -30,7 +30,7 @@
 .ripple-box {
 	background-color: ACCENT-OPACITY-COLOR;
 	box-shadow: 0 0 2px 2px ACCENT-OPACITY-COLOR;
-	border-radius: 0  0 99px 0;
+	border-radius: 0  0 20px 0;
 }
 
 
@@ -63,4 +63,3 @@
 	border: 1px solid BUTTON-COLOR;
 }
 
-/* .windows-close in screenshot.css */
